@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UnInfoApp.Views.UnInfoView">
+    <Frame BorderColor="Gray" CornerRadius="50">
+        <VerticalStackLayout Spacing="10">
+            <HorizontalStackLayout Spacing="10">
+                <Image HeightRequest="50" Source="un.png" />
+                <VerticalStackLayout>
+                    <Label x:Name="UnName" FontSize="Large" Text="UN Full Name"/>
+                    <Label x:Name="UnWebiste" TextColor="CadetBlue" FontSize="Medium" Text="www.website.com"/>
+                </VerticalStackLayout>
+
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </Frame>
+</ContentView>
