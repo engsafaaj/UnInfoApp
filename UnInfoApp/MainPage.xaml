@@ -13,6 +13,7 @@
 
             <Button x:Name="ButtonSearch" Text="Search" Clicked="ButtonSearch_Clicked"/>
 
+            <ActivityIndicator x:Name="IndicatorLoading" IsVisible="False" IsRunning="False"/>
             <VerticalStackLayout x:Name="ConLayout" Spacing="10">
             </VerticalStackLayout>
           
